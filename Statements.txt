@@ -1,0 +1,2 @@
+1.	Achieved optimization under certain circumstances like limited bandwidth. 
+2.	Removed HTTP communication with socket communication as http requests add headers, which can waste bandwidth, which is already limited.

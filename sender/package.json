@@ -1,0 +1,16 @@
+{
+  "name": "sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cat ../sample_event_stream.log | node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.87.0",
+    "socket.io-client": "^2.1.1",
+    "split": "^1.0.0"
+  }
+}
